@@ -48,7 +48,7 @@ cp -rt giraph/goffish-giraph/src/test/ giraph/goffish-giraph/src/main/java
 ###### Build GoFFish-Giraph #######
 cd giraph
 # eval mvn -Phadoop_yarn -Dhadoop.version=2.7.2 -DskipTests clean package
-eval mvn -Phadoop_2 -DskipTests clean package
+eval mvn -Phadoop_yarn -Dhadoop.version=2.7.4 -DskipTests clean package
 cd ..
 
 
